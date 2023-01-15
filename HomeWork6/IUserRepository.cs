@@ -10,7 +10,7 @@ namespace HomeWork6
     {
        public bool cterateUser(T obj);
         public T GetUser(int id);
-        public void UpdateUser(T obj);
+        public bool UpdateUser(T obj);
         public bool DeleteUser(int id);
     }
 }

@@ -103,19 +103,66 @@ namespace HomeWork6
             return false;
 
         }
-        List<User>? GetJsonBooks(string fileName)
+        private List<User>? GetJsonBooks(string fileName)
         {
             var jsonText = File.ReadAllText(fileName);
             return JsonConvert.DeserializeObject<List<User>>(jsonText);
+        }
+        public List<int>? GetIdOfUsers()
+        {
+            try
+            {
+                List<int> ids = new List<int>();
+                List<User> users = GetJsonBooks(csvFilePath);
+                if (users is null)
+                    return null;                
+                foreach (var user in users)
+                {
+                    ids.Add(user.Id);
+                }
+                return ids;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return null;
         }
         public void ShowUserMenu()
         {
             Console.WriteLine($"1={UserMenu.DefineUser} ," +
                     $"\n2={UserMenu.ShowListOfUsers} ," +
-                    $"\n3={UserMenu.UpdateUser} ," +
-                    $"\n4={UserMenu.DeleteUser} ," +
-                    $"\n5={UserMenu.LogOut}"
+                    $"\n3={UserMenu.LogOut}"                     
                     );
+        }
+        public void ShowListOfUsersMenu()
+        {
+            Console.WriteLine($"1={UserMenu.UpdateUser}," +
+                $"\n2={UserMenu.DeleteUser}," +
+                $"\n3={UserMenu.LogOut}");
+        }
+
+        public User GetUserInfo()
+        {
+            User us = new User();
+            Console.WriteLine("Enter Name of user:");
+            us.Name = Console.ReadLine();
+            string mobile;
+            do
+            {
+                Console.WriteLine("Enter Mobile Number of user:");
+                mobile = Console.ReadLine();
+            } while (mobile.Length != 11 && !int.TryParse(mobile, out int m));
+            us.mobileNumber = Convert.ToInt32(mobile);
+            string birthDate;
+            do
+            {
+                Console.WriteLine("Enter your BirthDate:");
+                birthDate = Console.ReadLine();
+            } while (DateTime.Parse(birthDate) > DateTime.Now);
+            us.birthDate = DateTime.Parse(birthDate);
+            us.creationDate = DateTime.Now;
+            return us;
         }
     }
 }
