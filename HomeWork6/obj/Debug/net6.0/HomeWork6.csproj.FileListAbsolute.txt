@@ -1,0 +1,14 @@
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\bin\Debug\net6.0\HomeWork6.exe
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\bin\Debug\net6.0\HomeWork6.deps.json
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\bin\Debug\net6.0\HomeWork6.runtimeconfig.json
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\bin\Debug\net6.0\HomeWork6.dll
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\bin\Debug\net6.0\ref\HomeWork6.dll
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\bin\Debug\net6.0\HomeWork6.pdb
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\obj\Debug\net6.0\HomeWork6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\obj\Debug\net6.0\HomeWork6.AssemblyInfoInputs.cache
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\obj\Debug\net6.0\HomeWork6.AssemblyInfo.cs
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\obj\Debug\net6.0\HomeWork6.csproj.CoreCompileInputs.cache
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\obj\Debug\net6.0\HomeWork6.dll
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\obj\Debug\net6.0\ref\HomeWork6.dll
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\obj\Debug\net6.0\HomeWork6.pdb
+C:\Users\Orkideh\Documents\مکتب شریف_سی شارپ دات نت\Projects\HomeWork6\HomeWork6\obj\Debug\net6.0\HomeWork6.genruntimeconfig.cache

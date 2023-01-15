@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "crzKMzvDB4hkjS8nLh6QPJ5f1EP4SFzZ9ppIvuv5ZxHm8iQs/leSs+bVVj55EcGKRQcmuNtTAT5kd3Kdhl5K5w==",
+  "dgSpecHash": "mTC3J5YxQZOCPmxjGGrXC4Xla4KCOl1B2c7dAC5xEwp6FslCf9TGAhlNFCSjce9pSuGQamCDnL8WEMBqmFnSmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Orkideh\\Documents\\مکتب شریف_سی شارپ دات نت\\Projects\\HomeWork6\\HomeWork6\\HomeWork6.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Orkideh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Orkideh\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Orkideh\\.nuget\\packages\\servicestack.text\\6.5.0\\servicestack.text.6.5.0.nupkg.sha512",
+    "C:\\Users\\Orkideh\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Orkideh\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Orkideh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
